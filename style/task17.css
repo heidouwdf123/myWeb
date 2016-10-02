@@ -1,0 +1,64 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	font: 12px "微软雅黑";
+	width: 1800px;
+	margin: 20px;
+	padding: 20px;
+}
+.grain{
+	height: 50px;
+	width: 30%;
+	margin: 10px 20px 20px 0;
+	padding: 10px;
+	float: left;
+	border: 2px solid #888;
+	border-radius: 1.3em;
+}
+.aqi-chart-wrap{
+	background-color: #CCE2D3;
+	position: relative;
+	height: 600px;
+	margin: 100px auto;
+	padding-top: 100px;
+	clear: both;
+
+}
+.aqi-chart-wrap div{
+	background-color: #2FB557;
+	position: absolute;
+	bottom: 0;
+}
+.div1:hover{
+	opacity: 0.6;
+}
+legend{
+	margin: 0 auto;
+	padding: 0 5px;
+}
+label{
+	padding: 15px;
+	font-size: 15px;
+}
+.day{
+	padding-left: 10em;
+}
+label input{
+	margin-left: 0.5em;
+	position: relative;
+	top: 0.16em;
+	width: 20px;
+}
+#city-select{
+	width: 90px;
+	margin-left: 14em;
+	height: 2em;
+	font-size: 15px;
+	padding: 3px;
+	border-radius: 0.5em;
+}
+#city-select:hover{
+	background-color: #ddd;
+}
